@@ -37,6 +37,7 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
 
+    /* Only need one browser for api testing
     {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
@@ -46,6 +47,7 @@ export default defineConfig({
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
     },
+    */
 
     /* Test against mobile viewports. */
     // {

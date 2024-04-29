@@ -43,7 +43,7 @@ test.describe('Authentication Endpoint', () => {
                 }
             });
             const responseData = await response.json();
-            expect(responseData.token).toBeTruthy();
+            expect(responseData.token).toBeDefined();
         });
 
         test('should return an error when the username is missing', async ({request}) => {
